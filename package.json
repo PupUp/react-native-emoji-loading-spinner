@@ -1,0 +1,29 @@
+{
+  "name": "react-native-emoji-loading-spinner",
+  "version": "0.0.1",
+  "description": "An emoji spinner loading component for React Native.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunblj/react-native-emoji-loading-spinner.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "emoji",
+    "loading",
+    "spinner"
+  ],
+  "author": "Arjun Balaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunblj/react-native-emoji-loading-spinner/issues"
+  },
+  "homepage": "https://github.com/arjunblj/react-native-emoji-loading-spinner#readme",
+  "dependencies": {
+    "node-emoji": "^1.4.1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.28.0"
+  }
+}
