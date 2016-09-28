@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arjunblj/react-native-emoji-loading-spinner.git"
+    "url": "git+https://github.com/PupUp/react-native-emoji-loading-spinner.git"
   },
   "keywords": [
     "react",
@@ -17,9 +17,9 @@
   "author": "Arjun Balaji",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arjunblj/react-native-emoji-loading-spinner/issues"
+    "url": "https://github.com/PupUp/react-native-emoji-loading-spinner/issues"
   },
-  "homepage": "https://github.com/arjunblj/react-native-emoji-loading-spinner#readme",
+  "homepage": "https://github.com/PupUp/react-native-emoji-loading-spinner#readme",
   "dependencies": {
     "node-emoji": "^1.4.1"
   },
