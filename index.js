@@ -12,6 +12,7 @@ class EmojiSpinner extends React.Component {
 
   static propTypes = {
     emojiName: React.PropTypes.string.isRequired,
+    emojiSize: React.PropTypes.number,
   }
 
   componentDidMount() {
@@ -39,11 +40,11 @@ class EmojiSpinner extends React.Component {
   }
 
   render() {
-    const { emojiName, emojiSize } = this.props
+    const { emojiName, emojiSize, containerStyles } = this.props
 
     const emoji = nodeEmoji.get(emojiName)
     return (
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <View style={[styles.container, containerStyles]}>
         <Animated.View style={this.getRotationAnimation()}>
           <Text style={{fontSize: emojiSize}}>{ emoji }</Text>
         </Animated.View>
@@ -53,6 +54,11 @@ class EmojiSpinner extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   rotateCard: {
     width: 100,
     height: 100,
