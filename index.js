@@ -18,7 +18,7 @@ class EmojiSpinner extends React.Component {
     this._animate()
   }
 
-  _animate() {
+  _animate = () => {
     this.state.angle.setValue(0)
     this._anim = Animated.timing(this.state.angle, {
       toValue: 360 * 400,

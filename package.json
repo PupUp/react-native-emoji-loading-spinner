@@ -1,6 +1,6 @@
 {
   "name": "react-native-emoji-loading-spinner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An emoji spinner loading component for React Native.",
   "main": "index.js",
   "repository": {
